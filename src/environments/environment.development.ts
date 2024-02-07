@@ -1,3 +1,3 @@
 export const environment = {
-    apiUrlBase: `https://pokeapi.co/api/v2/`
+	apiUrlBase: `https://pokeapi.co/api/v2`,
 };

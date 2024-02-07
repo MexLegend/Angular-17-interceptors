@@ -6,5 +6,5 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { errorHandlerInterceptor } from './core/interceptors/error-handler.interceptor';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideHttpClient(withInterceptors([errorHandlerInterceptor]))]
+	providers: [provideRouter(routes), provideHttpClient(withInterceptors([errorHandlerInterceptor]))],
 };
